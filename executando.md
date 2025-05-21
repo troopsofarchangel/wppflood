@@ -1,36 +1,37 @@
+
 # WhatsApp Flood Bot
 
-Este é um bot para WhatsApp que envia mensagens com intervalos personalizados. Usando a bibliotecas.
-Ele pode ser configurado para enviar mensagens em massa em grupos ou para indivíduos.
-USANDO:
-### 1. Clone este repositório.
+This is a WhatsApp bot that sends messages at custom intervals. Using the libraries.
+It can be configured to send bulk messages to groups or to individuals.
+USING:
+### 1. Clone this repository.
 
-### 2. Instale as dependências:
+### 2. Install the dependencies:
 npm install
 
 npm install whatsapp-web.js qrcode-terminal
 
 npm install --save-dev @types/qrcode-terminal
 
-### 3. Configure o WhatsApp Web:
-Quando você rodar o bot pela primeira vez, ele gerará um código QR. Escaneie o QR com o seu WhatsApp para logar no bot.
+### 3. Configure WhatsApp Web:
+When you run the bot for the first time, it will generate a QR code. Scan the QR with your WhatsApp to log into the bot.
 
-Para rodar o bot (com compilação do TypeScript):
+To run the bot (with TypeScript compilation):
 npm start
 
-Caso tenha algum problema com TS gere o arquivo JS para melhor resultado.
+If you have any problems with TS, generate the JS file for better results.
 npx tsc
 
-### 4. Comandos disponíveis:
-Abra um browser e usando o whatsweb rode os códigos.
-!test: Verifica se o bot está funcionando, voce vai obter a resposta: The bot is ready!
-!flood <quantidade> <intervalo_em_segundos> <mensagem>: Envia várias mensagens com intervalo.
-EXEMPLO: !flood 5 2 Olá, isso é um teste.
+### 4. Available commands:
+Open a browser and using whatsweb run the codes.
+!test: Checks if the bot is working, you will get the response: The bot is ready!
+!flood <quantity> <interval_in_seconds> <message>: Sends several messages with interval.
+EXAMPLE: !flood 5 2 Hello, this is a test.
 
-Isso enviará "Olá, isso é um teste" 5 vezes, com um intervalo de 2 segundos entre cada envio.
+This will send "Hello, this is a test" 5 times, with an interval of 2 seconds between each sending.
 
-Dica importante!
-1) Não feche o terminal enquanto estiver rodando o script.
-2) Envie os comandos nas conversas via browser e caso demore obter resposta de um ENTER no terminal onde está rodando o código, isso vai ajudar.
-3) Não use para fins comerciais! Você pode ser bloqueado pelo Meta, perder seu número e até ser banido caso esteja vinculado a uma conta empresa.
-4) Para sua segurança tenha um número (reserva ou não pessoal) para usar a ferramenta.
+Important tip!
+1) Do not close the terminal while running the script.
+2) Send the commands in the conversations via browser and if it takes a while to get a response from an ENTER in the terminal where you are running the code, this will help.
+3) Do not use for commercial purposes! You can be blocked by Meta, lose your number and even be banned if you are linked to a company account.
+4) For your security, have a number (reserve or not personal) to use the tool.
