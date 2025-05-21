@@ -7,7 +7,9 @@ USANDO:
 
 ### 2. Instale as dependências:
 npm install
+
 npm install whatsapp-web.js qrcode-terminal
+
 npm install --save-dev @types/qrcode-terminal
 
 ### 3. Configure o WhatsApp Web:
